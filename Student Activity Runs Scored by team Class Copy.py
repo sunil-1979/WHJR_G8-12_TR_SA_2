@@ -16,8 +16,7 @@ We want df_team_GT10K to be created such that only those observations
 are accepted which have total_runs value more than 10000
 like df_team_total_runs["total_runs"]>10000
 '''
-df_team_GT10K = df_team_total_runs[''' type here ''']
-
+df_team_GT10K = df_team_total_runs[df_team_total_runs["total_runs"]>10000]
 
 '''
 We want to plot bar chart for df_team_GT10K.index value as categories
